@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+h1{
+    margin: 8px;
+    text-align: center;
+    background-color: aliceblue;
+
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 8px 16px;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+a:hover {
+    background-color: aquamarine;
+    font-weight: 600;
+}
+img {
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    width: 30%;
+    margin: 8px auto;
+ }
+
+ p, ul, ol {
+    background-color: rgb(220, 255, 246);
+    padding: 8px 24px;
+    margin: 8px 16px;
+ }
+
+

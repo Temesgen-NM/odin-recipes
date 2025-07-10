@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.recipes {
+    background-color: lightcyan;
+    display:flex;
+    list-style-type: none;
+}
+a{
+    color: darkslateblue;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+li{
+    text-decoration: none;
+    margin: 8px auto;
+    padding: 16px;
+    background-color: lightyellow;
+    border-radius: 4px;
+}
+a:hover {
+    
+    color: darkblue;
+    background-color: aqua;
+    height: 50px;
+    padding: 8px 0;
+    display: block;
+}
+.title {
+    padding: 8px;
+    text-align: center;
+    background-color: antiquewhite;
+}
